@@ -16,7 +16,7 @@ const WebSocket = require('ws');
 //  - contact information (Scratch profile, email, GitHub issues page, etc.)
 //  - name of bot library and version (if applicable)
 // For example: my-cool-cloud-variable-bot v2.0 by https://scratch.mit.edu/users/TestMuffin
-// See https://docs.turbowarp.org/cloud-variables#advanced for more information.
+// See https://docs.bilup.org/cloud-variables#advanced for more information.
 const USER_AGENT = '';
 
 // Removing this if statement will not make your bot work. The user-agent is validated server-side.
@@ -24,7 +24,7 @@ if (!USER_AGENT) {
   throw new Error('You are required to provide a valid User-Agent header! See `const USER_AGENT = ...` and the comment above it near the start of this file.');
 }
 
-const ws = new WebSocket("wss://clouddata.turbowarp.org", {
+const ws = new WebSocket("wss://clouddata.bilup.org", {
   headers: {
     'user-agent': USER_AGENT
   }

@@ -1,6 +1,6 @@
 # cloud-server
 
-A cloud data server for Scratch 3. Used by [forkphorus](https://forkphorus.github.io/) and [TurboWarp](https://turbowarp.org/).
+A cloud data server for Scratch 3. Used by [Bilup](https://www.bilup.org/).
 
 It uses a protocol very similar to Scratch 3's cloud variable protocol. See doc/protocol.md for further details.
 
@@ -15,7 +15,7 @@ This server also does not implement history logs.
 Needs Node.js and npm.
 
 ```
-git clone https://github.com/TurboWarp/cloud-server
+git clone https://github.com/Bilup/cloud-server
 cd cloud-server
 npm install
 npm start
@@ -23,9 +23,7 @@ npm start
 
 By default the server is listening on ws://localhost:9080/. To change the port or enable wss://, read below.
 
-To use a local cloud variable server in forkphorus, you can use the `chost` URL parameter, for example: https://forkphorus.github.io/?chost=ws://localhost:9080/
-
-You can do a similar thing in TurboWarp with the `cloud_host` URL parameter: https://turbowarp.org/?cloud_host=ws://localhost:9080/
+To use a local cloud variable server in Bilup with the `cloud_host` URL parameter: https://bilup.org/?cloud_host=ws://localhost:9080/
 
 ## Configuration
 
