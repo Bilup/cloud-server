@@ -1,5 +1,8 @@
 # cloud-server
 
+> [!WARNING]
+> This repository is archived due to clouddata.bilup.org is now down. Sorry for the inconvenice.
+
 A cloud data server for Scratch 3. Used by [Bilup](https://www.bilup.org/).
 
 It uses a protocol very similar to Scratch 3's cloud variable protocol. See doc/protocol.md for further details.
